@@ -9,7 +9,7 @@
 |---|---|---|
 | [**LEO-Routing-Optimization**](https://github.com/junghyun-han/LEO-Routing-Optimization) | 위성이 움직여도 끊기지 않는 통신 경로 최적화. 그래프 강화학습(PPO-GCN), CP-SAT 정수계획, 운영 조건을 읽고 도구를 골라 쓰는 LLM 에이전트 | 통신 완주율 **92.56%** (기존 최고 83.53%), 여러 운영 조건 동시 준수 **20/20** (LLM + CP-SAT) |
 | [**AI-Network-Routing**](https://github.com/junghyun-han/AI-Network-Routing) | 강화학습 라우팅을 운용 가능한 시스템으로 구현. 장애 선제 탐지, 최적해 대비 검증, Kubernetes 배포, 관측, 탐지 → 우회 폐루프 | 최적해 대비 gap **1.83%**, 단절 탐지 ROC-AUC **0.840**, 단절 시간 34.2 s → **0 s** |
-| [**MolChat**](https://github.com/junghyun-han/MolChat) | 분자 질문에 답하는 LLM 에이전트. RAG, function calling, LoRA 미세조정, 양자화, FastAPI · ONNX 서빙 | LoRA로 파라미터 **0.44%**만 학습, 양자화로 모델 **2.5배** 축소 |
+| [**MolChat**](https://github.com/junghyun-han/MolChat) | 분자 질문에 답하는 LLM 에이전트. RAG, function calling, LoRA 미세조정, 양자화, FastAPI · ONNX 서빙 | LoRA 학습 파라미터 **0.44%**, 양자화로 모델 **2.5배** 축소 |
 
 ## 연구
 
